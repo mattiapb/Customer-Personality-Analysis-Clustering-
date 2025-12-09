@@ -1,7 +1,6 @@
 """
 Project: Customer Personality Analysis
 Module: Experimental Clustering - Self-Organizing Maps (SOM)
-Authors: Mattia Pinilla, Jorge Córdoba, Ignacio López, Carlos Flores, Francisco Santibáñez
 Date: Spring 2024
 
 Description:
