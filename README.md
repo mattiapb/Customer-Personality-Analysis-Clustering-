@@ -19,7 +19,7 @@ We analyzed the distribution of key demographic variables such as **Year of Birt
 * **Age Structure:** Identified the predominant age groups by calculating `Customer_Age` (2024 - Year_Birth).
 * **Income Distribution:** Analyzed mean, median, and standard deviation to understand customer purchasing power. We filtered out outliers (e.g., birth years before 1930 or income > $200,000) to avoid skewing the model.
 
-![Distribution of User Income](path/to/income_distribution_image.png)
+![Distribution of User Income](/img/incomedist.png)
 *Figure 1: Distribution of User Income showing the concentration of purchasing power.*
 
 ### Purchasing Behavior
@@ -27,7 +27,7 @@ We examined spending habits across different categories:
 * **Products:** Wines, Fruits, Meat, Fish, Sweets, and Gold.
 * **Recency:** Evaluated the days since the last purchase to measure customer retention and engagement.
 
-![Distribution of Wine Purchases](path/to/wine_purchases_image.png)
+![Distribution of Wine Purchases](/img/winedist.png)
 *Figure 2: Distribution of spending on Wine products.*
 
 ### Channel Preference & Promotion Sensitivity
