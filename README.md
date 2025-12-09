@@ -1,18 +1,11 @@
 # Customer Personality Analysis: A Clustering Approach
 
-## 📌 Project Overview
+## Project Overview
 Customer personality analysis is a detailed analysis of a company's ideal customers based on transactional and behavioral data. By understanding customer habits, businesses can modify products and marketing campaigns to specific segments.
 
 This project implements **Unsupervised Machine Learning** techniques to segment a customer base into distinct clusters. By analyzing these groups, we derived actionable business insights to optimize marketing strategies and maximize revenue.
 
 **Original Dataset:** [Kaggle: Customer Personality Analysis](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis)
-
-## 👥 Team Members
-* **Mattia Pinilla**
-* Jorge Córdoba
-* Ignacio López
-* Carlos Flores
-* Francisco Santibáñez
 
 *University of Chile - Faculty of Physical and Mathematical Sciences (FCFM)*
 
@@ -33,7 +26,7 @@ We experimented with multiple clustering algorithms to find the optimal segmenta
 * **Ensemble Method:** A "Majority Voting" system combining K-Means and Agglomerative Clustering.
 * *Discarded Models:* DBSCAN, Affinity Propagation, GMM, MeanShift, and Spectral Clustering (due to poor segmentation performance).
 
-## 📊 Results & Evaluation
+## Results & Evaluation
 
 We evaluated the models using the **Silhouette Score** to measure cluster cohesion and separation.
 
@@ -46,30 +39,29 @@ We evaluated the models using the **Silhouette Score** to measure cluster cohesi
 ### Cluster Profiling (K-Means)
 The analysis identified **3 distinct customer personalities**:
 
-#### 🟢 Cluster 0: "The Average Customer"
+#### Cluster 0: "The Average Customer"
 * **Profile:** Moderate income, balanced spending across all channels (Web, Store, Catalog).
 * **Behavior:** Low initial campaign acceptance but responsive to final offers.
 * **Strategy:** Multichannel marketing campaigns emphasizing convenience and variety.
 
-#### 🟠 Cluster 1: "The Elite / High-Net-Worth"
+#### Cluster 1: "The Elite / High-Net-Worth"
 * **Profile:** Highest income bracket, high spending on luxury goods (Wine, Gold, Meat).
 * **Behavior:** Very high response rate to marketing campaigns (approx. 71%).
 * **Strategy:** Target with premium/luxury products and exclusive VIP offers.
 
-#### 🔵 Cluster 2: "The Budget / Family-Oriented"
+#### Cluster 2: "The Budget / Family-Oriented"
 * **Profile:** Lowest income, typically families with more children/dependents.
 * **Behavior:** Low discretionary spending, primarily purchases necessities. Very low campaign engagement.
 * **Strategy:** Focus on cost-effective promotions, discounts on essential goods (e.g., Fruits), and family bundles.
 
-## 🚀 Key Business Insights
+## Key Business Insights
 1.  **Luxury Targeting:** Marketing efforts for high-margin products (Gold, Wine) should be strictly funnelled to **Cluster 1**, as they show the highest propensity to buy and respond to promos.
 2.  **Efficiency:** Avoid targeting **Cluster 2** with high-cost acquisition campaigns; instead, use organic reach or massive discounts on low-margin staples.
 3.  **Omnichannel Approach:** **Cluster 0** represents the core user base that utilizes all shopping interfaces; maintaining a consistent user experience across the App, Web, and Store is crucial for this segment.
 
-## 💻 Tech Stack
+## Tech Stack
 * **Python**
 * **Libraries:** Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn.
 * **Techniques:** PCA, K-Means, Hierarchical Clustering, GridSearch.
 
 ---
-*Project developed for the Electrical Engineering Laboratory course, Spring 2024.*
