@@ -64,8 +64,17 @@ We implemented and compared multiple clustering algorithms to find the optimal s
 
 *Note: Other models such as DBSCAN, Affinity Propagation, and Spectral Clustering were tested but discarded due to inconsistent segmentation results.*
 
-![Clustering Visualization with PCA](path/to/kmeans_pca_image.png)
-*Figure 3: Visualization of the 3 final clusters using PCA components.*
+![Clustering Visualization with PCA](/img/kmeanspca.png)
+
+*Figure 3: Visualization of the 3 final clusters using PCA components using Kmeans.*
+
+![Clustering Visualization with PCA](/img/agglomerativepca.png)
+
+*Figure 4: Visualization of the 3 final clusters using PCA components using Agglomerative Clustering.*
+
+![Clustering Visualization with PCA](/img/ensamblepca.png)
+
+*Figure 5: Visualization of the 3 final clusters using PCA components using Ensemble Method.*
 
 ---
 
