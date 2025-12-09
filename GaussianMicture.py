@@ -1,7 +1,6 @@
 """
 Project: Customer Personality Analysis
 Module: Experimental Clustering - Gaussian Mixture Models (GMM)
-Authors: Mattia Pinilla, Jorge Córdoba, Ignacio López, Carlos Flores, Francisco Santibáñez
 Date: Spring 2024
 
 Description:
