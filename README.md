@@ -118,5 +118,3 @@ While the current analysis provides strong insights, incorporating the following
 * **Online Behavior:** Detailed web logs (time on site, clicked items) to infer interest beyond just transaction history.
 * **Social Media Interaction:** Data on brand engagement across social platforms to measure brand loyalty and sentiment.
 
----
-*Project developed for the Electrical Engineering Laboratory course, Spring 2024.*
