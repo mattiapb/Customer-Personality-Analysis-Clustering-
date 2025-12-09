@@ -1,7 +1,6 @@
 """
 Project: Customer Personality Analysis
 Module: Final Clustering Model - K-Means with GridSearchCV
-Authors: Mattia Pinilla, Jorge Córdoba, Ignacio López, Carlos Flores, Francisco Santibáñez
 Date: Spring 2024
 
 Description:
