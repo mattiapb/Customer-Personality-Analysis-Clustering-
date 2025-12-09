@@ -9,7 +9,7 @@ This project implements **Unsupervised Machine Learning** techniques to segment 
 
 *University of Chile - Faculty of Physical and Mathematical Sciences (FCFM)*
 
-## 🛠️ Methodology & Workflow
+## Methodology & Workflow
 
 ### 1. Data Preprocessing & Feature Engineering
 To ensure high-quality clusters, the raw dataset (29 variables) underwent rigorous cleaning:
